@@ -22,7 +22,7 @@ public class TrafficController {
         return greenDurations.getOrDefault(direction,0);
     }
 
-    public void setVehicleCount(Map<Direction, Integer> vehicleCount) {
+    public void setVehicleCounts(Map<Direction, Integer> vehicleCount) {
         this.vehicleCount = vehicleCount;
     }
 
@@ -54,7 +54,7 @@ public class TrafficController {
     }
 
 
-    private void updateDurations()
+    public void updateDurations()
     {
         calculateTotalVehicleCount();
         calculateGreenDurations();
