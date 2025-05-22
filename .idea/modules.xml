@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/Traffic-Light-Density.iml" filepath="$PROJECT_DIR$/.idea/Traffic-Light-Density.iml" />
+      <module fileurl="file://$PROJECT_DIR$/traffic-light-density/TrafficLightDensity/TrafficLightDensity.iml" filepath="$PROJECT_DIR$/traffic-light-density/TrafficLightDensity/TrafficLightDensity.iml" />
     </modules>
   </component>
 </project>
