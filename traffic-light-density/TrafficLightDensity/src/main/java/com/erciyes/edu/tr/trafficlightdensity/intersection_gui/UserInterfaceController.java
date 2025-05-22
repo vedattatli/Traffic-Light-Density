@@ -8,7 +8,7 @@ import javafx.scene.control.Label;
 
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
+import javafx.event.ActionEvent;
 
 public class UserInterfaceController {
     // Arayüz buton vs. burda çizilecek

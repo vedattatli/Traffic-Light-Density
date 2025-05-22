@@ -13,7 +13,9 @@ public class TrafficSimApp extends Application {
     @Override
     public void start(Stage stage) throws Exception {
 
-        Parent rootNode = FXMLLoader.load(Objects.requireNonNull(UserInterfaceController.class.getResource("main.fxml")));
+        FXMLLoader loader = new FXMLLoader(UserInterfaceController.class.getResource("src/main/resources/main.fxml"));
+        Parent rootNode = loader.load();
+
         Scene scene = new Scene(rootNode);
         stage.setScene(scene);
         stage.setTitle("Traffic Light Density");
